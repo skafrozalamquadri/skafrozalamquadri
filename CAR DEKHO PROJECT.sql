@@ -1,5 +1,5 @@
 -- Create a new schema and use it --
--- CREATE SCHEMA cars; --
+CREATE SCHEMA cars;
 USE cars;
 
 -- Read all data from 'car dekho' table --
