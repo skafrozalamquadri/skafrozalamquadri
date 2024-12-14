@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company HR Portal</title>
+    <link rel="icon" href="./icon.png">
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #CEEFF2;
+        }
+
+        header, footer{
+            background-color: #81c6e3;
+            color: aliceblue;
+            text-align: center;
+            padding: 2px;
+
+        }
+
+        .navitem {
+            display: inline;
+            padding: 15px;
+        }
+
+        .navitem a {
+            text-decoration: none;
+            color: #5714a2;
+        }
+
+        .registerform{
+            width: max-content;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .employeetable {
+            text-align: center;
+        }
+
+        table{
+            margin-right: auto;
+            margin-left: auto;
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th,td{
+            border: 1px solid #81c6e3;
+            padding: 8px;
+        }
+
+        .contactus{
+            text-align: center;
+        }
+
+
+
+
+    </style>
+
+</head>
+<body>
+    
+<header>
+    <h1> Welcome to Company HR Portal</h1>
+    <nav>
+        <ul>
+            <li class="navitem"><a href="#employee-registration"> Employee Registration </a></li>
+            <li class="navitem"><a href="#employee-directory"> Employee Directory </a></li>
+            <li class="navitem"><a href="#contact-us"> Contact Us </a></li>
+        </ul>
+    </nav>
+</header>
+
+<image src="./image.jpg" style="width: 100%;"></image>
+
+<section id="employee-registration" class="registerform">
+    <h2>Employee Registration</h2>
+    <p>Fill the below form to register as <em>employee.</em></p>
+    <form>
+        <label for="name">Name: </label>
+        <input type="text" id="name"><br><br>
+        <label for="email">Email Id: </label>
+        <input type="email" id="email"><br><br>
+        <label for="password">Password: </label>
+        <input type="password" id="password"><br><br>
+        <label for="age">Age: </label>
+        <input type="number" id="age"><br><br>
+        <label for="role">Select role: </label>
+        <select>
+            <option>Software Engineer</option>
+            <option>Data Scientist</option>
+            <option>Product Manager</option>
+            <option>Designer</option>
+            <option>HR Representative</option>
+        </select><br><br>
+        <label for="joining date">Select joining date: </label>
+        <input type="date" id="joining date"><br><br>
+        <input type="submit"><br>
+
+    </form>
+</section>
+
+<section id="employee-directory" class="employeetable">
+    <h2>Employee Directory</h2>
+    <p>Directory of all registered employees.</p>
+    <table>
+        <tr>
+            <th>Employee ID</th>
+            <th>Employee Name</th>
+            <th>Employee Role</th>
+        </tr>
+        <tr>
+            <td>123</td>
+            <td>Afroz Alam</td>
+            <td>Software Engineer</td>
+        </tr>
+        <tr>
+            <td>234</td>
+            <td>Roxy Gupta</td>
+            <td>Product Manager</td>
+        </tr>
+        <tr>
+            <td>456</td>
+            <td>Jai Dixit</td>
+            <td>Data Scientist</td>
+        </tr>
+    </table>
+</section>
+<section id="contact-us" class="contactus">
+    <h2>Contact Us</h2>
+    <p>You can contact us at company@hr.com or visit us between 9AM - 6PM</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3692.6580070583905!2d84.9009428!3d22.253051000000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a201f72bbd561c3%3A0xab5c70e76a7b5a!2sNational%20Institute%20of%20Technology%2C%20Rourkela!5e0!3m2!1sen!2sin!4v1734192061138!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</section>
+
+<footer>
+    <p>&copf; 2023 Company Name</p>
+</footer>
+
+</body>
+</html>
